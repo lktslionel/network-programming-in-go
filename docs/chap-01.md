@@ -136,12 +136,15 @@ A simplify version of the OSI model.
  ├                      ┼──────┤
  │                      │  L5  │
  ├──────────────────────┼──────┤
- │  Transport           │  L4  │
+ │  Transport           │  L4  │ Data integrity (Data received will be in the correct order)
  ├──────────────────────┼──────┤
- │  Internet / Network  │  L3  │
+ │  Internet / Network  │  L3  │ IPv4/IPv6 / BGP / ICMP / IGMP / IPsec
  ├──────────────────────┼──────┤
  │                      │  L2  │
- ├  Link                ┼──────┤
+ ├  Link                ┼──────┤ ARP / SLIP PPP (Point-to-PoinT Protocol)
  │                      │  L1  │
  └──────────────────────┴──────┘
 ```
+
+
+
